@@ -7,19 +7,15 @@
 
 name: Build_x86_64
 
-on: 
-  release:
-    types: [published]
-
-  #push:
-  #  branches: 
-  #    - master
-
-  #schedule:
-  #  - cron: 0 8 * * 5
-  
-  #watch:
-  #  types: [started]
+on:
+#  push:
+#    branches:
+#      - master
+#  schedule:
+#    - cron: 20 02 * * *
+  gollum:
+#  watch:
+#    types: [started]
 
 jobs:
   build:
