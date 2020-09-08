@@ -79,8 +79,8 @@ jobs:
         git clone -b master --single-branch https://github.com/tty228/luci-app-serverchan package/new/luci-app-serverchan
         svn co https://github.com/openwrt/openwrt/branches/openwrt-19.07/package/network/utils/iputils package/network/utils/iputils
         rm -rf package/lean/luci-theme-argon
-        git clone -b master --single-branch https://github.com/jerrykuku/luci-theme-argon package/new/luci-theme-argon
-        git clone -b master --single-branch https://github.com/garypang13/luci-theme-edge package/new/luci-theme-edge
+        git clone -b 18.06 --single-branch https://github.com/jerrykuku/luci-theme-argon package/new/luci-theme-argon
+        git clone -b 18.06 --single-branch https://github.com/garypang13/luci-theme-edge package/new/luci-theme-edge
 
     - name: Configuration Customization - Build_x86_64
       env:
