@@ -4,9 +4,9 @@
 ![GitHub Forks](https://img.shields.io/github/forks/vasewa/AutoBuild-OpenWrt.svg?style=flat&logo=appveyor&label=Forks&logo=github)
 ![GitHub last commit](https://img.shields.io/github/last-commit/vasewa/luci-app-poweroff?label=Latest%20Commit&logo=github)
 
-Build OpenWrt firware [Lean's OpenWrt](https://github.com/coolsnowwolf/lede) using GitHub Actions.
-Forked from [esirplayground/AutoBuild-OpenWrt](https://github.com/esirplayground/AutoBuild-OpenWrt)
-Hereby thank eSir for his amazing job!
+- Build OpenWrt firware [Lean's OpenWrt](https://github.com/coolsnowwolf/lede) using GitHub Actions.
+- Forked from [esirplayground/AutoBuild-OpenWrt](https://github.com/esirplayground/AutoBuild-OpenWrt)
+- Hereby thank eSir for his amazing job!
 
 ## Usage
 
