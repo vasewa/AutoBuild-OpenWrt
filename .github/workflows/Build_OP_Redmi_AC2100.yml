@@ -14,9 +14,9 @@ on:
 #      - master
 #  schedule:
 #    - cron: 20 02 * * *
-  gollum:
-#  watch:
-#    types: [started]
+#  gollum:
+  watch:
+    types: [started]
 
 jobs:
   build:
