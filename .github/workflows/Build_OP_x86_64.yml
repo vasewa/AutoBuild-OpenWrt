@@ -80,7 +80,6 @@ jobs:
         svn co https://github.com/openwrt/openwrt/branches/openwrt-19.07/package/network/utils/iputils package/network/utils/iputils
         rm -rf package/lean/luci-theme-argon
         git clone -b 18.06 --depth 1 https://github.com/jerrykuku/luci-theme-argon.git package/new/luci-theme-argon
-        git clone -b master --depth 1 https://github.com/jerrykuku/luci-app-ttnode.git package/new/luci-app-ttnode
 
     - name: Configuration Customization - Build_x86_64
       env:
